@@ -1,0 +1,156 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    padding-top: 80px;
+    background-color: #FFFF00;
+    font-family: "Nunito", sans-serif;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+p.lead:hover {
+    cursor: default;
+}
+
+hr {
+    border-top: 5px solid white;
+}
+
+#container {
+    min-height: 100%;
+    position: relative;
+}
+
+#body {
+    padding: 10px;
+    padding-bottom: 200px;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #212529;
+}
+
+.small-section {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    max-width: 500px;
+}
+
+.nav-link {
+    font-size: 0.8em !important;
+}
+
+.navbar-toggler {
+    padding: .08rem .25rem !important;
+}
+
+.border-warning {
+    border-color: #FFFF00 !important;
+}
+
+.text-warning {
+    color: #FFFF00 !important;
+}
+
+.navbar-brand {
+    font-size: 2.25rem !important;
+}
+
+.min-form {
+    max-width: 500px;
+}
+
+.min-padding {
+    padding-top: 10%;
+}
+
+.max-margin {
+    margin-top: 18%;
+}
+
+.formError {
+    display: none;
+    background-color: #c83737;
+    font-style: italic;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 0 0 15px 0;
+    text-align: center;
+    border-color: #d87070;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.formSuccess {
+    display: none;
+    background-color: #217844;
+    font-style: italic;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 0 0 15px 0;
+    text-align: center;
+    border-color: #35c06d;
+    border-width: 2px;
+    border-style: solid;
+}
+
+#LoginLi {
+    display: none;
+}
+
+#SignupLi {
+    display: none;
+}
+
+#LogoutLi {
+    display: none;
+}
+
+#MyCartLi {
+    display: none;
+}
+
+#AccountLi {
+    display: none;
+}
+
+.loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    /* Safari */
+    animation: spin 2s linear infinite;
+    margin: auto auto;
+}
+
+/* Safari */
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

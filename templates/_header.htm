@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+
+<head>
+    <!-- General Setting -->
+    <meta charset="utf-8">
+    <meta http-equiv="content-language" content="en-us">
+    <base href="{global.baseUrl}">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- meta tags -->
+    <title>{head.title} | {global.appName}</title>
+    <meta name="desciption" content="{head.description}">
+
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
+
+
+    <!-- bootstrap css-->
+    <link rel="stylesheet" type="text/css" href="public/bootstrap/bootstrap.min.css">
+
+    <!-- static assets -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="public/app.css">
+    <script type="text/javascript" charset="utf-8" src="public/app.js"></script>
+
+</head>
+
+<body>
+    <div id="container">
+        <div id="header">
+            <!-- navbar -->
+            <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="/">
+                    <img src="public/brand.svg" width="50" height="50" alt="brand-icon">
+                </a>
+                <a class="navbar-brand" href="/">PizzyHut</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto ">
+                        <li class="nav-item active text-center rounded border rounded-pill border-warning  my-1 mr-2 ">
+                            <a class="nav-link text-warning" href="/" id="navItems">Grab A Bite</a>
+                        </li>
+                        <li class="nav-item active text-center rounded border border-light my-1 mr-1">
+                            <a class="nav-link text-light" href="/">Home </a>
+                        </li>
+                        <li class="nav-item active text-center rounded border border-success my-1 mr-1 " id="LoginLi">
+                            <a class="nav-link text-success" href="/session/login">Login </a>
+                        </li>
+                        <li class="nav-item active text-center rounded border border-primary  my-1 mr-1 " id="SignupLi">
+                            <a class="nav-link text-primary" href="/account/create">Signup </a>
+                        </li>
+
+                        <li class="nav-item active text-center rounded border border-warning  my-1 mr-1 " id="MyCartLi">
+                            <a class="nav-link text-warning" href="/user/usercart" id="userCartButton">My Cart </a>
+                        </li>
+                        <li class="nav-item active text-center rounded border border-primary  my-1 mr-1" id="AccountLi">
+                            <a class="nav-link text-primary" href="/account/edit">Account Settings</a>
+                        </li>
+                        <li class="nav-item active text-center rounded border border-danger  my-1 mr-1 " id="LogoutLi">
+                            <a class="nav-link text-danger" href="/" id="logoutButton">Logout </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div id="body">
+            <!-- page specific content -->

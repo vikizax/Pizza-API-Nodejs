@@ -1,0 +1,10 @@
+{
+    "firstName": "John",
+    "lastName": "Smith",
+    "password": "b6a0f7d0e0a38c940fc6a30c680619b209e9b3b83f310e71ff7bf9b78c030ea4",
+    "phone": "9876543210",
+    "email": "abc@gmail.com",
+    "address": "XYZ",
+    "tosAgreement": true,
+    "accountCreatedOn": 1579202195952
+}
