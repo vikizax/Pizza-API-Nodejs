@@ -248,7 +248,7 @@
 | --- | --- |
 | 200 |  Success |
 | 400 | Missing required fields |
-| 403 | Missing or invalid feild |
+| 403 | Missing or invalid field |
 | 404 | Not found |
 | 405 | Bad request |
 | 500 | Server Error |
