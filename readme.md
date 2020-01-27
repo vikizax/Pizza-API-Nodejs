@@ -244,14 +244,14 @@
 
 ## Response:
 
-|Status Code|Description| 
-|--|--|--|
-|200|  Success|
-|400|Missing required fields|
-|403| Missing or invalid feild|
-|404| Not found|
-|405|Bad request|
-|500| Server Error
+| Status Code | Description | 
+| --- | --- |
+| 200 |  Success |
+| 400 | Missing required fields |
+| 403 | Missing or invalid feild |
+| 404 | Not found |
+| 405 | Bad request |
+| 500 | Server Error |
 
 ## Payload Example:
 	
