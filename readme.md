@@ -1,4 +1,4 @@
-![alt text](https://github.com/vikizax/Pizza-Api-Nodejs/screenshot/pizzaapi.jpg)
+![alt text](https://github.com/vikizax/Pizza-API-Nodejs/blob/master/screenshot/pizzaapi.jpg)
 
 
 
